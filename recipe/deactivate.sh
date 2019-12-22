@@ -1,0 +1,2 @@
+#!/bin/sh
+export HADOOP_HOME="${HADOOP_HOME_CONDA_BACKUP}"

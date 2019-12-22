@@ -1,0 +1,17 @@
+{% set version = "2.7.7" %}
+
+package:
+  name: winutils
+  version: {{ version }}
+
+source:
+  git_url: https://github.com/typhoon51280/winutils.git
+
+build:
+  number: 2
+
+about:
+  home: https://github.com/typhoon51280/winutils
+  license: MIT
+  license_family: MIT
+  summary: winutils.exe hadoop.dll and hdfs.dll binaries for hadoop windows

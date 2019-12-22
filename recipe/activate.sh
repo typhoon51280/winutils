@@ -1,0 +1,3 @@
+#!/bin/sh
+export HADOOP_HOME_CONDA_BACKUP="${HADOOP_HOME}"
+export HADOOP_HOME="${CONDA_PREFIX}/Library"
